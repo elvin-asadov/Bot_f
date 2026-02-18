@@ -8,7 +8,7 @@ import pytz
 
 # ─── KONFİQURASİYA ───────────────────────────────────────────────
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8576432885:AAHQBY3aKVmKH9v9H6oysd16s9hH9ym1fXQ")
-MANAGER_ID = int(os.environ.get("MANAGER_ID", "0"))  # Sənin Telegram ID-n
+MANAGER_ID = int(os.environ.get("MANAGER_ID", "1573517410"))  # Sənin Telegram ID-n
 STANDUP_HOUR = int(os.environ.get("STANDUP_HOUR", "9"))   # Standup saatı (09:00)
 STANDUP_MINUTE = int(os.environ.get("STANDUP_MINUTE", "0"))
 TIMEZONE = os.environ.get("TIMEZONE", "Asia/Baku")
